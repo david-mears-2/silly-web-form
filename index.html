@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    .likert li {
+      float: left;
+      list-style-type: none;
+    }
+
+    .checkbox-round {
+        width: 1.3em;
+        height: 1.3em;
+        background-color: white;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+        appearance: none;
+        -webkit-appearance: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .checkbox-round:checked {
+        background-color: lightgray;
+    }
+
+    p {
+      margin-left: 2rem
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    big {
+      color: darkred
+    }
+  </style>
+</head>
+<body>
+  <h4>Page 1 of 6</h4>
+  <h5>Step 1 of 9</h5>
+  <h1>Mandatory Form</h1>
+  <p>This form is mandatory.</p>
+  <p>Mandatory Services takes your health very seriously. We will <i>always</i> respect patients' decisions, consent, bodily autonomy. This is in order to ensure the treatment plan that works best for you and our family.</p>
+  <p>We believe our patients' bodies are important to them, and we look forward to working on you.</p>
+  <p><big>ⓘ Did you know... </big> Healthy adult human mouths have 74 teeth.</p>
+  <p>Please fill out the form by the dead-line, as specific requests cannot always be honoured.</p>
+  <p><big>ⓘ Did you know... </big> the dead-line?</p>
+
+  <p>If you do not fill out the form, you give consent to all treatments deemed important by your assigned Colleague.</p>
+    <br><small><small><small>By filling out this form, you give consent to all treatments deemed important by your assigned Colleague.</small></small></small>
+    <br><small><small><small><small><small><small>By reading this sentence, you give Mandatory Services your legal power of attorney.</small></small></small></small></small></small></p>
+  <h2>Health</h2>
+  <p>Tick all the questions you most agree with.
+
+  <br>
+  <ul class="likert">
+    <label>My health is...</label><br>
+    <li> Very important to me </li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="1" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="2" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="3" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="4" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="5" /></li>
+    <li>Not important to me </li>
+  </ul>
+
+  <p><big>ⓘ Did you know... </big> all services provided by Mandatory Services are free of charge?</p>
+
+  <br>
+  <ul class="likert">
+    <label>My current family is...</label><br>
+    <li> Very important to me </li>
+    <li><input type="radio" class="checkbox-round" name="guilty" value="1" /></li>
+    <li><input type="radio" class="checkbox-round" name="guilty" value="2" /></li>
+    <li><input type="radio" class="checkbox-round" name="guilty" value="3" /></li>
+    <li><input type="radio" class="checkbox-round" name="guilty" value="4" /></li>
+    <li><input type="radio" class="checkbox-round" name="guilty" value="5" /></li>
+    <li> Not guilty </li>
+  </ul>
+
+  <p><big> ⓘ Did you know? </big> If you recommend Mandatory Services to a family member, your next graft will be totally free of charge!</p>
+
+  <br>
+  <ul class="likert">
+    <label>My skin is...</label><br>
+    <li> Somewhat important to me </li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="1" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="2" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="3" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="4" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="5" /></li>
+    <li>Not important to me </li>
+  </ul>
+  <p><big>ⓘ Did you know...? </big> People like you answered 'Not important to me'!</p>
+
+  <br>
+  <ul>
+    I have the following symptoms:
+    <p>
+      <label>Riddled with calcium</label>
+      <input type="radio" disabled/>
+    </p>
+    <p><big> ⓘ Did you know... </big> Unassisted, the average human body lasts about 80 years?</p>
+    <p>
+      <label>Health</label>
+      <input type="radio" disabled checked/>
+    </p>
+    <p>
+      <label>Facial apertures</label>
+      <input type="radio" disabled/>
+    </p>
+    <p>
+      <label>Able to weep</label>
+      <input type="radio" disabled/>
+    </p>
+    <p>
+      <label>High pain tolerance</label>
+      <input type="radio" disabled checked/>
+    </p>
+    <p>
+      <label>Skin</label>
+      <input type="radio" disabled checked/>
+    </p>
+    <p><big>ⓘ Did you know... </big> The skin is the largest organ in the human body.</p>
+    <p>
+      <label>High pain tolerance</label>
+      <input type="radio" disabled checked/>
+    </p>
+    <p>
+      <label>Recalcitrant</label>
+      <input type="radio" disabled/>
+    </p>
+    <p>
+      <label>Self-advocating</label>
+      <input type="radio" disabled/>
+    </p>
+  </ul>
+
+  <h2>Testimonies</h2>
+
+
+  <p><i>I remember enjoying the procedure immensely, but cannot provide any specific details. My Colleague was important to me at all times during my procedure. I do not have any regrets or unexplained body parts. My memory appears intact and my value system unchanged. I for one give consent to all future procedures.</i></p>
+  <p> -- Patient C</p>
+
+  <p><i>I apologise for my behaviour, and see the error of my ways. When I said that my tear ducts were important to me, I was of course referring not to my tear ducts per se, but to the aperture through which the fluid is ejected.</i></p>
+  <p> -- Patient L</p>
+
+  <p><i>Filling out the form was the best decision I ever made while alive.</i></p>
+  <p> -- You?</p>
+
+  <h2>Personal details</h2>
+
+  <br>
+  <ul class="likert">
+    <label>Level of concern</label><br>
+    <li> I am very concerned </li>
+    <li><input type="checkbox" class="checkbox-round" name="skin" value="1" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="skin" value="2" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="skin" value="3" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="skin" value="4" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="skin" value="5" /></li>
+    <li> Somewhat concerned </li>
+  </ul>
+
+  <p><big>ⓘ Did you know... </big> It's perfectly normal to be concerned. Worry is a natural, healthy reaction. Colleagues are experienced with dealing with difficult patients. So don't worry! It doesn't help.</p>
+
+
+  <p>
+  <label>Gender:</label><br>
+  <select name="gender" id="gender">
+    <optgroup label="Human">
+      <option value="1">Select one</option>
+      <option value="2">Select two</option>
+      <option value="3">Select three</option>
+    </optgroup>
+    <optgroup label="Colleague"></optgroup>
+  </select>
+  </p>
+
+  <p><big>ⓘ Did you know...? </big> Please do not weep at any time while in the vicinity of a Colleague as it may provoke them. This is very important. Please, be considerate. We do not harm you, so do not do this to us. Why would you do this? The salts are painful to us.</p>
+
+  <p>
+    <label>Sex:</label><br>
+    <select name="sex" id="sex">
+      <optgroup label="Humans">
+        <option value="1">Select one</option>
+        <option value="2">Assign at random</option>
+      </optgroup>
+      <optgroup label="Colleague">
+        <option value="3">Volunteer for especial service</option>
+      </optgroup>
+    </select>
+  </p>
+
+  <p>
+    <label>Secondary characteristics:</label><br>
+    <select name="sex" id="sex">
+      <optgroup label="Humans">
+        <option value="6" disabled>Important to me</option>
+        <option value="2">Not important to me</option>
+        <option value="3">Assign at random</option>
+      </optgroup>
+      <optgroup label="Colleague">
+        <option value="4">Appendage required</option>
+      </optgroup>
+    </select>
+  </p>
+
+  <br>
+  <ul class="likert">
+    <label>First name:</label><br>
+    <li> Aaron </li>
+    <li><input type="range"/></li>
+    <li> Zoë </li>
+  </ul>
+
+  <p><big> ⓘ Did you know... </big> If you cannot weep, please speak to a Colleague about this, as you may be eligible for extra testing, free of charge. </p>
+
+  <br>
+  <ul class="likert">
+    <label>Last name:</label><br>
+    <li> Somewhat important to me </li>
+    <li><input type="range"/></li>
+    <li> Unknown </li>
+  </ul>
+
+  <p><big> ⓘ Did you know... </big> When properly reared with enriched nutrients, adult humans can grow to about half the size of a Colleague? </p>
+<br>
+  <p>
+  <label>Age:</label><br>
+  <select name="gender" id="gender">
+    <optgroup label="Human">
+      <option value="1">Select one</option>
+      <option value="2">New</option>
+      <option value="3">Alive</option>
+      <option value="3">Wrinkled</option>
+    </optgroup>
+    <optgroup label="Colleague"></optgroup>
+  </select>
+  </p>
+
+  <p><big> ⓘ Did you know... </big> the consequences of not submitting by the dead-line?</p>
+  <button>Submit</button>
+
+  <br>
+  <ul class="likert">
+    <label>Appearance:</label><br>
+    <li> Taut </li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="1" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="2" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="3" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="4" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="5" /></li>
+    <li> Wrinkled </li>
+  </ul>
+
+  <p><big> ⓘ Did you know... </big> You will submit to us by the dead-line? </p>
+  <button>Submit</button>
+
+  <br>
+  <ul class="likert">
+    <label>Status:</label><br>
+    <li><input type="radio" class="checkbox-round" name="guilty" value="1" />Guilty</li>
+  </ul>
+
+  <button>Submit</button>
+
+
+  <br>
+  <ul class="likert">
+    <label>How likely are you to recommit a family member?</label><br>
+    <li> Very likely to recommit </li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="1" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="2" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="3" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="4" /></li>
+    <li><input type="checkbox" class="checkbox-round" name="guilty" value="5" /></li>
+    <li> Maybe </li>
+  </ul>
+
+  <p><big> ⓘ Did you know... </big> The dead line the streets?</p>
+  <button>Submit</button>
+</body>
